@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+.sessao1 {
+  background-color: #1F2937;
+  padding: 0px 150px 50px 150px;
+  
+
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Header-logo img {
+  width: 150px;
+  height: 150px;
+  margin-left: -41px;
+}
+ 
+.flex-container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+ }
+
+.imagem-grande{
+  flex:1;
+}
+
+ .imagem-grande img {
+  width: 450px;
+  height: 350px;
+}
+
+.nosso-projeto {
+  flex: 1;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+p,.header-link {
+  font-size: 18px;
+  color:#E5E7EB;
+
+}
+
+.header-link {
+  display: flex;
+  gap: 50px;
+}
+
+.botao button {
+  text-align: center;
+  width: 110px;
+  border: none;
+  background: #3882f6;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+}
